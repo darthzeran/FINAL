@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <title>WebMaker Secret Base</title>
+  <link rel="stylesheet" type="text/css" 
+      href="/static/css/styles.css" />
+</head>
+<body>
+  <div ng-controller="myController">
+    <h2>Welcome. You are Logged In as: <%= username %></h2>
+    <a href="/logout">logout</a>
+    <a href="/user">Edit User</a>
+    <p>Website: <a href="http://ec2-54-244-167-140.us-west-2.compute.amazonaws.com:3004/">http://ec2-54-244-167-140.us-west-2.compute.amazonaws.com:3004/</a><p><br>
+  </div>
+  <hr><%= msg %>
+  <hr>Color <%= color %>
+  <hr>
+  <img src="https://media.makeameme.org/created/Welcome-Ive-been.jpg">
+  <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+  <script src="/static/js/my_app.js"></script>
+</body>
+</html>
