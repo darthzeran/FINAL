@@ -1,0 +1,90 @@
+nohup: ignoring input
+(node:16474) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+login
+{ _id: 583f414d1af1813484e9b9ce,
+  email: '',
+  hashed_password: 'J0TM0Qx1M71zatiQ+d1cqyrbJ7B9UAuUk/Kc3EIMsuA=',
+  username: 'me',
+  __v: 18,
+  color: 'purple',
+  urls: [ '[object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object]' ] }
+login
+{ _id: 583f414d1af1813484e9b9ce,
+  email: '',
+  hashed_password: 'J0TM0Qx1M71zatiQ+d1cqyrbJ7B9UAuUk/Kc3EIMsuA=',
+  username: 'me',
+  __v: 18,
+  color: 'purple',
+  urls: [ '[object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object]' ] }
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+Error: no car
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/routes.js:29:29
+    at /opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mongoose/lib/query.js:2313:18
+    at newTickHandler (/opt/bitnami/apache2/htdocs/last/FINAL/AUTH/node_modules/mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+login
+{ _id: 58498e46a1eddc405a272b7c,
+  email: '',
+  hashed_password: '47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=',
+  username: '',
+  __v: 0 }

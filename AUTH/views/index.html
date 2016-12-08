@@ -1,20 +1,31 @@
 <html>
 <head>
   <title>Project Review</title>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
   <script src="/static/js/app.js"></script>
 
 </head>
 <style>
-.gone {
-display:block;
-margin: auto;
-    background-color: FF0600;
-text-align: center;
+.lo{
+font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+input[type=text]{
+  border-radius:10px;
+}
+body{
+background-color: FFFDD0;
 }
 h1{
-background-color: 00FF3B;
+background-color: F5F5DC;
 }
 #sign{
 color: black;
@@ -30,9 +41,13 @@ display:block;
 width:40%;
 margin: auto;
 }
+input{
+font-family: "Times New Roman", Times, serif;
+ font-style: italic;
+}
 </style>
 <body>
-  <a href="/logout">logout</a>
+  <a class="lo" href="/logout">logout</a>
 <div ng-app="carshow" ng-controller="MainCtrl">
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
@@ -41,11 +56,6 @@ margin: auto;
 </div>
 
   <form ng-submit="addCar()" style = "margin-top30px;">
-   <!-- <input type="text" ng-model="make"placeholder="Car Make"></input>
-<input type="text" ng-model="model"placeholder="Car Model"></input> 
-<input type="text" ng-model="year"placeholder="Car Year"></input> 
-<input type="text" ng-model="miles"placeholder="Car Miles"></input> 
-    <input type="text" ng-model="foto"placeholder="Car Image"></input> -->
 
 <input type="text" ng-model="name"  placeholder="Project Name">  </input> 
 <input type="text" ng-model="url"   placeholder="Project URL">   </input> 
@@ -56,8 +66,8 @@ margin: auto;
 
 
   </form>
-  <div class="out" ng-repeat="car in cars | orderBy: '-model':true | orderBy: '-make':true | orderBy: '-upvotes'">
-    <img src=" {{car.foto}}" height="10%"> <b>{{car.name}} <a href="{{car.url}}"> {{car.title}}</a> </b>
+  <div class="out" ng-repeat="car in cars">
+    <img src=" {{car.foto}}" height="10%"> <b>{{car.name}}:-  <a href="{{car.url}}"> {{car.title}}</a> </b>
 <span id="sign" class="glyphicon glyphicon-remove" ng-click="delete(car)"></span>
 
     
